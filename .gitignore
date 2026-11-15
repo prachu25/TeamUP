@@ -1,0 +1,32 @@
+
+# Java / Spring Boot
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+*.log
+
+# React / Node
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-local.yml
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local Spring Boot configuration
+teamup_backend/src/main/resources/application.properties
